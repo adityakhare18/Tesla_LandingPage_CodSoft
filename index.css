@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/image-1.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    cursor: pointer;
+    background: transparent;
+    padding-left: 20px;
+    width: auto;
+    height: 90px;
+}
+nav .link1{
+    display: flex;
+    gap: 35px;
+}
+nav .link1 li a{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: all .55s ease;
+}
+/* nav .link1 li a:hover{
+    color: white;
+    border-bottom: 1px solid #ffffff;
+} */
+nav .icon{
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+    margin-right: 50px;
+    font-size: 25px;
+    color: white;
+}
+.info{
+    width: 100%;
+    padding:0 7%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    /* position: fixed; */
+    justify-content: center;
+    /* top: 100px; */
+    /* left: 100px; */
+}
+.info div{
+    margin: 0 20px;
+}
+.info div h2{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 10px;
+}
+.info .one{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.info .two{
+    font-size: 12px;
+    line-height: 20px;
+}
+.btn{
+    position: absolute;
+    bottom: 100px;
+    left: 35%;
+}
+.btn .btn-1{
+    padding: 10px 70px;
+    width: 264px;
+    background-color: #ffffff;
+    opacity: 80%;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    color:#000;
+    text-align: center;
+    line-height: 16.8px;
+}
+.btn .btn-2{
+    padding: 10px 70px;
+    color: #eeeeee;
+    background-color: #222222;
+    opacity: 65%;
+    border-radius: 4px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.foot{
+    width: 679px;
+    height: 36px;
+    position: absolute;
+    margin-left: 12px;
+    bottom: 12px;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot p{
+    font-size: 12px;
+    color: #eeeeee;
+    line-height: 18px;
+}
+.foot a{
+    font-size: 12px;
+    line-height: 18px;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+}
